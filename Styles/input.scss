@@ -1,6 +1,5 @@
     // Utilities  msut come first
-@import  'utilities/mixins',
-         'utilities/variables';
+@import  'utilities/variables';
 
 // Base Styles     
 @import  'base/base',
@@ -14,4 +13,4 @@
         'components/svg';
 
 // sass styles/input.scss:styles/output.css
-// sass --watch styles/input.scss:styles/output.css
+// sass --watch styles/input.scss:styles/output.css``
