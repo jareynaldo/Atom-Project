@@ -1,0 +1,17 @@
+    // Utilities  msut come first
+@import  'utilities/mixins',
+         'utilities/variables';
+
+// Base Styles     
+@import  'base/base',
+         'base/typography';
+
+// Component Styles
+@import 'components/mainDiv',
+        'components/form',
+        'components/images',
+        'components/reveal',
+        'components/svg';
+
+// sass styles/input.scss:styles/output.css
+// sass --watch styles/input.scss:styles/output.css
