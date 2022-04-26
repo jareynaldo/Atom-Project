@@ -2,6 +2,10 @@
   width: 100%;
 }
 
+.card-text {
+  margin-bottom: 50%;
+}
+
 img {
   height: 50%;
   padding-top: 5%;
@@ -29,6 +33,7 @@ img {
   margin-left: 15%;
 }
 #svgMedium svg {
+  transform-origin: 30% 40%;
   width: 100%;
   height: 100vh;
 }
@@ -47,13 +52,9 @@ img {
   }
 }
 
-svg {
-  transform-origin: center center;
-}
-
 svg:hover {
   transform: rotate(360deg);
-  transition: transform 1s ease-in;
+  transition: transform 1s ease-in-out;
 }
 
 /*# sourceMappingURL=output.css.map */
