@@ -6,6 +6,10 @@
   margin-bottom: 50%;
 }
 
+.subheadline {
+  margin-left: 0.5rem;
+}
+
 img {
   height: 50%;
   padding-top: 5%;
