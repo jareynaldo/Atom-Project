@@ -9,6 +9,10 @@ img {
   margin-right: 10px;
 }
 
+#electron-img {
+  margin-left: 5%;
+}
+
 .reveal {
   position: relative;
   transform: translateY(150px);
@@ -42,6 +46,15 @@ img {
   #svgSmall {
     margin-left: 20%;
   }
+}
+
+svg {
+  transform-origin: center center;
+}
+
+svg:hover {
+  transform: rotate(360deg);
+  transition: transform 1s ease-in;
 }
 
 /*# sourceMappingURL=output.css.map */
