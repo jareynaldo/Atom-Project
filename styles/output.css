@@ -1,9 +1,15 @@
+@media (min-width: 350px) {
+  footer {
+    margin-top: 19%;
+  }
+}
+
 #mainDiv {
   width: 100%;
 }
 
 .card-text {
-  margin-bottom: 50%;
+  height: 100%;
 }
 
 .subheadline {
@@ -12,11 +18,15 @@
 
 img {
   height: 50%;
-  padding-top: 5%;
   margin-right: 10px;
 }
 
 .elemntimgs {
+  width: 100%;
+}
+
+.elementimgswithout {
+  margin-top: 5%;
   width: 100%;
 }
 
